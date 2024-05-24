@@ -26,9 +26,40 @@
     />
     <link rel="stylesheet" href="/styles/app.css" />
 
-    <title>Document</title>
+    <title>SheCodes Portfolio</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Ndzalama's logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Ndzalama's logo"
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="Ndzalama's work">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Ndzalama's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Ndzalama's contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
     <div class="hero container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,14 +72,63 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="" class="btn btn-branding" title="Ndzalama's projects"
+              >See my projects</a
+            >
           </div>
         </div>
 
         <div class="col-lg-6">
-          <img src="images/woman.jpg" width="600" alt="" />
+          <img src="images/woman.jpg" width="600" alt="Ndzalama's photo" />
         </div>
       </div>
-    </div>
+      </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+
+          <div>
+            <a href class="btn btn-branding mt-3" title="Contact Ndzalama"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:hNdzalama@gmail.com"
+            class="email-link"
+            title="Email Ndzalama"
+            >hNdzalama@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/ndzalama"
+            target="_blank"
+            title="Github profile"
+          >
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/ndzalama"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.twitter.com/ndzalama"
+            target="_blank"
+            title="Twitter profile"
+          >
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+      </footer>
+    
+</div>
   </body>
 </html>

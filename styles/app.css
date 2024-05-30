@@ -29,6 +29,10 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -38,11 +42,11 @@ p {
 .classic {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .hero-section h1 {
@@ -179,19 +183,15 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
 
   h2 {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
-  }
-
-  .classic {
-    padding: 80px 20px;
   }
 
   .hero-section {
